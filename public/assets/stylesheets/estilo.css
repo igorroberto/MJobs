@@ -1,0 +1,1323 @@
+/* #### PÁGINA INICIAL #### */
+
+/* PADRONIZACAO */
+
+html{
+	font-size: 10px;
+}
+
+.col-md-12.sobre_contTexto.visible-lg {
+    display: block !important;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #333;
+	font-weight: 300;
+}
+.col-sm-3.col-lg-2.text-center.wrap:hover a{
+	color: #fff;
+}
+.outras_noticias.col-md-12 .noticia {
+    min-height: 200px;
+}
+.noticias_link.noticia-principal {
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 516px;
+		padding: 5px;
+}
+h1{
+	font-size: 32px;
+	font-size: 3.2rem;
+}
+
+/* TOPO */
+
+.topo{
+	background-color: #d24d57;
+	padding: 30px 0 30px 0 !important;
+	padding: 6.0rem 0 6.0rem 0;
+}
+
+.topo ul{
+    margin: 0;
+}
+
+.topo ul li{
+    padding: 0 15px 0 15px;
+}
+
+/* MENU */
+
+.navbar-default {
+    background-color: #ececec;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #d24d57;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #d24d57;
+    background-color: #ececec;
+}
+
+.dropdown-menu {
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: #ececec;
+    box-shadow: none;
+}
+
+.dropdown-menu > li > a {
+    font-weight: 300;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #d24d57;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
+    background-color: #d24d57;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d24d57;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff;
+	background-color: #d24d57;
+}
+
+.navbar-toggle{
+    margin: 10px 15px 10px 0;
+    margin: 1rem 1.5rem 1rem 0;
+    padding: 5px;
+    padding: 0.8rem;
+}
+
+.navegacao_acessoFacil{
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.navegacao_siga{
+    background: url("../img/icon_siga.png") no-repeat;
+    width: 56px;
+    height: 20px;
+    margin: -9px 0 0 15px;
+    margin: -0.9rem 0 0 1.5rem;
+}
+
+.navegacao_siga:hover{
+    background: url("../img/icon_siga_hover.png") no-repeat;
+}
+
+.navegacao_biblioteca{
+    background: url("../img/icon_biblioteca.png") no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.navegacao_biblioteca:hover{
+    background: url("../img/icon_biblioteca_hover.png") no-repeat;
+}
+
+.navegacao_email{
+    background: url("../img/icon_mail.png") no-repeat;
+    width: 27px;
+    height: 20px;
+}
+
+.navegacao_email:hover{
+    background: url("../img/icon_mail_hover.png") no-repeat;
+}
+
+.navegacao_pesquisa{
+    background: url("../img/icon_search.png") no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.navegacao_pesquisa:hover{
+    background: url("../img/icon_search_hover.png") no-repeat;
+}
+
+/* BANNER */
+
+.banner{
+    background-color: #ececec;
+}
+
+.banner h1{
+    margin: 60px;
+    margin: 6rem;
+    font-weight: normal;
+}
+
+/* NOTICIAS */
+
+.noticias{
+    background-color: #ececec;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.noticias header{
+    background-color: #d24d57;
+    color: #fff;
+    margin: 0;
+}
+
+.noticias h1{
+    margin: 15px 0 15px 0;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.noticias .row{
+    margin: 0;
+}
+
+.noticias_principal{
+    background-color: #333;
+    margin: 15px;
+    margin: 1.5rem;
+}
+
+.noticias button{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    padding: 1rem;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.noticias button:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+.noticias_data{
+    color: #fff;
+    float: right;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+}
+
+.noticias_data .dia{
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.noticias_data .mes_ano{
+    float: right;
+    padding-left: 5px;
+    padding-left: 0.5rem;
+    margin-top: 6px;
+    margin-top: 0.6rem;
+    line-height: 16px;
+    line-height: 1.6rem;
+}
+
+.noticias_link a{
+    color: #fff;
+}
+
+.noticias_link h1{
+    margin-top: 60px;
+    margin-top: 6.0rem;
+    margin-bottom: 0;
+}
+
+.noticias_link p{
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+}
+
+.noticias_secundaria{
+    background-color: #333;
+    margin: 15px;
+    margin: 1.5rem;
+}
+
+.noticias_secundaria h1{
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+}
+
+.noticias h1{
+    padding-bottom: 0;
+}
+
+.noticias_btn_saibamais{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    padding: 10px;
+    padding: 1rem;
+    margin: 0 15px 15px 0;
+    margin: 0 1.5rem 1.5rem 0;
+}
+
+.noticias_btn_saibamais:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+.notop{
+    margin-top: 0 !important;
+    font-weight: normal !important;
+}
+
+#MaisNoticias .modal-body, .modal-footer{
+    background-color: #ececec;
+}
+
+#MaisNoticias .modal-header{
+    background-color: #d24d57;
+    color: #fff;
+}
+
+#MaisNoticias .modal-header .close{
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
+}
+
+#MaisNoticias .modal-body{
+    padding-bottom: 0;
+}
+
+#MaisNoticias .noticias_modal{
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+#MaisNoticias .noticias_modal .noticias_link p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#MaisNoticias .noticias_modal button{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    padding: 1rem;
+}
+
+#MaisNoticias .noticias_modal button:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+#MaisNoticias .noticias_modal .modal-footer{
+    margin-top: -15px;
+    margin-top: -1.5rem;
+}
+
+#MaisNoticias .modal-footer .pager{
+    margin: 0;
+}
+
+#MaisNoticias .modal-footer .pager a{
+    background-color: #d24d57;
+    color: #fff;
+    font-weight: normal;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    padding: 1rem;
+}
+
+#MaisNoticias .modal-footer .pager a:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+#MaisNoticias .modal-footer{
+    border: none;
+    margin-top: -15px;
+    margin-top: -1.5rem;
+}
+
+/* SOBRE */
+
+.sobre{
+    background-color: #ececec;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.sobre header{
+    background-color: #d24d57;
+    color: #fff;
+    margin: 0;
+}
+
+.sobre h1{
+    margin: 15px 0 15px 0;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.sobre_titulo{
+    color:black;
+    text-align: center;
+
+}
+
+.sobre_conteudo{
+    padding: 15px;
+    padding: 1.5rem;
+}
+
+.sobre_conteudo p{
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+
+.sobre_btn_saibamais{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    padding: 10px;
+    padding: 1rem;
+    margin: 15 15px 0 0;
+    margin: 1.5rem 1.5rem 0 0;
+}
+
+.sobre_btn_saibamais:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+.sobre_btn_enviar{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    padding: 5px;
+    padding: 1rem;
+    margin: 5px;
+    margin: 1.5rem;
+}
+
+.sobre_btn_enviar:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+/* RODAPE */
+
+footer{
+    background-color: #ececec;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.footer_mapa{
+    text-align: center;
+    padding-top: 15px;
+    padding-top: 1.5rem;
+    margin: 0;
+}
+
+.footer_mapa a{
+    color: #333;
+}
+
+.footer_mapa a:hover{
+    text-decoration: none;
+    color: #d24d57;
+}
+
+.footer_mapa h2{
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 15px 0 5px 0;
+    margin: 1.5rem 0 0.5rem 0;
+    font-weight: bold;
+}
+
+.footer_newsletter{
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.footer_newsletter input{
+    border: none;
+    border-radius: 0;
+    background-color: #333;
+    color: #fff;
+    box-shadow: none;
+}
+
+.footer_newsletter input:focus{
+    box-shadow: none;
+}
+
+.footer_newsletter .form-control{
+    height: auto;
+    padding: 10px;
+    padding: 1rem;
+}
+
+.footer_newsletter span{
+    background-color: #d24d57;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    padding: 1rem;
+}
+
+.footer_newsletter input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+}
+
+.footer_newsletter input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+
+.footer_newsletter input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+
+.footer_newsletter input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+}
+
+.footer_social{
+    margin-bottom: 30px;
+    margin-bottom: 3.0rem;
+}
+
+.footer_info{
+    background-color: #d24d57;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-top: 3.0rem;
+}
+
+.footer_info p{
+    margin-bottom: 30px;
+    margin-bottom: 3.0rem;
+}
+
+footer address{
+    padding-bottom: 30px;
+    padding-bottom: 3.0rem;
+    margin: 0;
+}
+
+/* #### PÁGINA CURSOS (LOGÍSTICA) #### */
+
+/* MODAL*/
+
+.partes {
+    display: flex;
+}
+
+.parte1 {
+    flex: 0 0 20%;
+    flex-direction: column;
+}
+
+.parte2 {
+    flex: 0 0 80%;
+    flex-direction: row;
+}
+
+.modal-header {
+    padding: 0px;
+    border: 0px;
+    min-height: 0px;
+}
+
+.modal-dialog {
+    width: 70vw;
+    height: 60vh;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.modal-content {
+    border: 0px;
+    margin: 0px;
+}
+
+section#semestres {
+    flex: 0 0 10%;
+    flex-direction: row;
+}
+
+section#materias {
+    flex: 0 0 100%;
+    flex-direction: column;
+    -webkit-order:1;
+}
+
+section#ementa {
+    flex: 0 0 60%;
+    flex-direction: row;
+}
+
+/* Menu Superior*/
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #D24D57;
+    padding: 0px 0px 0px 20px;
+}
+
+ul.tab li {
+    float: left;
+}
+
+ul.tab li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul.tab li a:hover {background-color: #8c343b;},
+
+ul.tab li a:focus, .active {background-color: #8c343b;}
+
+.tab content {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Menu lateral*/
+
+ul.tab1 {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #383232;
+    margin: 0px;
+
+}
+ul.tab1 li:first-child {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a.titulomodal {
+    cursor: default;
+}
+
+a.titulomodal:hover {
+    background: #383232 !important;
+}
+
+ul.tab1 li span {
+    display: block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul.tab1 li span:hover:not(.active) {
+    background-color: darkgrey;
+    color: white;
+        cursor: pointer;
+}
+
+
+
+/* BANNER */
+
+.banner_curso{
+    background-color: #333;
+    color: #fff;
+    padding: 60px;
+    padding: 6.0rem;
+}
+
+.banner_curso h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.banner_curso p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.banner_curso_button{
+    margin-right: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* MENU DESKTOP */
+
+.nav-tabs{
+    border: 1px solid #d24d57;
+}
+
+.nav-tabs .wrap_estagio{
+    padding-top: 12px;
+    padding-top: 1.2rem;
+    padding-left: 15px;
+}
+
+.nav-tabs > li > a:focus, .nav-tabs > li > a {
+    color: #fff;
+    background-color: #d24d57;
+    border: none;
+    padding: 0 11px 0 11px;
+    padding: 0 1.1rem 0 1.1rem;
+}
+
+.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+    background-color: #d24d57;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a {
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #d24d57;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 0;
+}
+
+/* SOBRE O CURSO */
+
+.panel-body{
+    background-color: #ececec;
+}
+
+.curso_info{
+    background-color: #ececec;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.curso_info .panel-group{
+    padding: 15px;
+    padding: 1.5rem;
+}
+
+.curso_info .panel-heading{
+    background-color: #d24d57;
+    border-radius: 0;
+    border: 1px solid #d24d57;
+    text-align: center;
+    position: relative;
+}
+
+.curso_info .panel-heading:active{
+    text-decoration: underline;
+}
+
+.curso_info .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.curso_info .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border: 0;
+    background-color: #ececec;
+}
+
+.curso_info .panel-group .panel {
+    border: 1px solid #DDD;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.curso_info_sobre_content{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #ececec;
+}
+
+.curso_info_sobre_content .wrap{
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+}
+
+.curso_info_sobre_content p{
+    margin-bottom: 5;
+}
+
+.curso_info_sobre_content img{
+    margin: 15px auto 15px auto;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+a.list-group-item {
+
+        color: #d24d57;
+}
+a.list-group-item:focus {
+    background-color: rgba(210, 77, 87, 0.60);
+        color: #fff;
+}
+
+
+/* MATRIZ CURRICULAR */
+
+.div-semestre{
+    cursor:pointer;
+    width: 160px;
+    height: 80px;
+    background-color:#fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+        margin-top: 10px;
+}
+
+.div-semestre-nome{
+    white-space: nowrap;
+    height: 160px;
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+	position: relative;
+	top: 30px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.div-semestre:hover,.div-projeto{
+    -webkit-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -moz-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -ms-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -o-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    transition:all .8s cubic-bezier(.190,1.000,.220,1.000)}
+
+.div-semestre:hover{
+    color:#FFF;
+    background-color:#d24d57}
+
+/* TCC */
+
+.div-tcc{
+    cursor:pointer;
+    width: 160px;
+    height: 160px;
+    background-color:#fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.div-tcc-nome{
+    white-space: nowrap;
+    height: 160px;
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+	position: 0;
+	top: 70px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.div-tcc:hover,.div-projeto{
+    -webkit-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -moz-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -ms-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    -o-transition:all .8s cubic-bezier(.190,1.000,.220,1.000);
+    transition:all .8s cubic-bezier(.190,1.000,.220,1.000)}
+
+.div-tcc:hover{
+    color:#FFF;
+    background-color:#d24d57}
+
+/* CORPO DOCENTE */
+
+.curso_info_corpodocente_content .wrap{
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.curso_info_corpodocente_content .corpodocente_button{
+    margin: 0;
+}
+
+.curso_info_corpodocente_content_sm{
+    padding: 0 0 0 15px;
+    padding: 0 0 0 1.5rem;
+}
+
+.col-sm-3.col-lg-2.text-center.wrap {
+    padding: 12px;
+}
+
+.col-sm-3.col-lg-2.text-center.wrap:hover {
+    border: 1px;
+    background-color: #d24d57;
+    color: white;
+    transition: 0.3s;
+}
+
+.curso_info_corpodocente_content_sm .wrap{
+    padding-right: 15px;
+    padding-right: 1.5rem;
+}
+
+.curso_info_corpodocente_content_sm .corpodocente_button{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/* LABORATORIO */
+
+.curso_info_laboratorio_content p{
+    margin: 15px 0 0 0;
+    margin: 1.5rem 0 0 0;
+}
+
+/* #### PÁGINA DE EXIBIÇÃO DE NOTÍCIAS #### */
+
+.noticia_conteudo{
+    background-color: #ececec;
+}
+
+.noticia_conteudo h1{
+    margin: 0;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-top: 1.5rem;
+}
+
+.noticia_conteudo p{
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.noticia_conteudo button{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    padding: 1rem;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+
+.noticia_conteudo button:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+.noticia_conteudo h2{
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.outras_noticias{
+    padding: 15px;
+    padding: 1.5rem;
+    background-color: #ececec;
+}
+
+.noticia{
+    background-color: #333;
+    padding: 15px;
+    padding: 1.5rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+    border: 1px solid white;
+}
+
+.noticia button{
+    border-radius: 0;
+    border: none;
+    background-color: #d24d57;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    padding: 1rem;
+}
+
+.noticia button:hover{
+    background-color: #c14750;
+    color: #fff;
+}
+
+.noticia a{
+    color: #fff;
+}
+
+.noticia a:hover{
+    text-decoration: underline;
+}
+
+.noticia h1{
+    margin-top: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.noticia p{
+    margin: 0;
+    color: white;
+}
+
+.nomargin{
+    margin-bottom: 0;
+}
+
+/* ------------------------------ INICIO MEDIA QUERIES ------------------------------ */
+
+@media screen and (min-width: 330px) and (max-width: 492px){
+
+    /* #### PÁGINA INICIAL #### */
+
+    /* BANNER */
+
+    .banner h1{
+        margin: 85px;
+        margin: 8.5rem;
+    }
+
+}
+
+@media screen and (max-width: 466px){
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    /* CORPO DOCENTE */
+
+    .professorQuatro, .professorCinco, .professorSeis{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 467px){
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    /* CORPO DOCENTE */
+
+    .curso_info_corpodocente_content{
+        text-align: center;
+    }
+
+    .curso_info_corpodocente_content img{
+        display: inline;
+        margin: 0;
+    }
+
+    .curso_info_corpodocente_content .wrap{
+        margin: 0;
+    }
+
+    .curso_info_corpodocente_content .wrap1467{
+        margin-right: 11px;
+        margin-right: 1.1rem;
+    }
+
+    .curso_info_corpodocente_content .wrap2467{
+        margin: 15px 11px 15px 0;
+        margin: 1.5rem 1.1rem 1.5rem 0;
+    }
+
+    .professorCinco, .professorSeis{
+        position: absolute;
+        left: -9999px;
+    }
+
+}
+
+@media screen and (min-width: 493px) and (max-width: 767px){
+
+    /* #### PÁGINA INICIAL #### */
+
+    /* RODAPE */
+
+    .footer_mapa_cont{
+        float: left;
+        width: 50%;
+
+    }
+
+    .wrap_mobile h2{
+        margin-top: -25px;
+        margin-top: -2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 662px) and (max-width: 767px){
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    /* CORPO DOCENTE */
+
+    .curso_info_corpodocente_content .wrap2467{
+        margin-left: 11px;
+        margin-left: 1.1rem;
+        margin-right: 0;
+    }
+
+    .professorCinco, .professorSeis{
+        position: inherit;
+    }
+
+    .curso_info_corpodocente_content .wrap3467{
+        margin-left: 0;
+        margin-right: 11px;
+        margin-right: 1.1rem;
+    }
+
+    .curso_info_corpodocente_content .corpodocente_button{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    /* PÁGINA INICIAL */
+
+    /* TOPO */
+
+    .topo ul{
+        padding-left: 15px;
+        padding-left: 1.5rem;
+    }
+
+    /* MENU */
+
+    .navbar-collapse{
+        padding-left: 0;
+    }
+
+    /* NOTICIAS */
+
+    .noticias_principal{
+        margin-right: 7px;
+        margin-right: 0.7rem;
+        height: 325px;
+        position: relative;
+    }
+
+    .noticias_principal .noticias_link{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .noticias_principal .noticias_link p{
+        margin-bottom: 0;
+        margin-right: 15px;
+        margin-right: 1.5rem;
+    }
+
+    .noticias_secundaria{
+        margin-left: 8px;
+        margin-left: 0.8rem;
+        height: 155px;
+        position: relative;
+    }
+
+    .noticias_secundaria .noticias_link{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .noticias_secundaria h1{
+        margin-top: 15px;
+        margin-top: 1.5rem;
+        margin-bottom: 15px;
+        margin-bottom: 1.5rem;
+    }
+
+    .noticias_secundariaUm{
+        margin-bottom: 7px;
+        margin-bottom: 0.7rem;
+    }
+
+    .noticias_secundariaDois{
+        margin-top: 8px;
+        margin-top: 0.8rem;
+    }
+
+    .noticias_principal, .noticias_secundaria{
+        width: 46.87716%;
+    }
+
+    /* RODAPE */
+
+    .footer_info{
+        text-align: left;
+    }
+
+    .footer_info address{
+        text-align: right;
+    }
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    .curso_info_sobre_content .col-sm-8, .col-sm-4{
+        padding: 0;
+    }
+
+    .curso_info_sobre_content p{
+        text-align: left;
+    }
+
+    .curso_info_sobre_content_borda{
+        width: 5px;
+        width: 0.5rem;
+        height: 107px;
+        height: 10.7rem;
+        background-color: #d24d57;
+        float: left;
+        margin-right: 7px;
+        margin-right: 0.7rem;
+    }
+
+    .curso_info_sobre_content h2{
+        font-size: 16px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .curso_info_sobre_content_coordenadora p{
+        text-align: center;
+    }
+
+    .curso_info_sobre_content_coordenadora img{
+        margin: 12px auto 12px auto;
+        margin: 1.2rem auto 1.2rem auto;
+    }
+
+}
+
+@media screen and (min-width: 991px){
+
+    /* #### PÁGINA INICIAL #### *
+
+    /* BANNER */
+
+    .banner h1{
+        margin: 120px;
+        margin: 12rem;
+    }
+
+    /* NOTICIAS */
+
+    .noticias_principal, .noticias_secundaria{
+        width: 47.60803%;
+    }
+
+    /* RODAPE */
+
+    .footer_mapa{
+        text-align: left;
+    }
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    .nav-tabs > li > a:focus, .nav-tabs > li > a {
+        padding: 0 30px 0 30px;
+        padding: 0 3rem 0 3rem;
+    }
+
+    .curso_info_sobre_content_borda{
+        height: 107px;
+        height: 10.7rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    /* #### PÁGINA INICIAL #### */
+
+    /* RODAPE */
+
+    .noticias_principal, .noticias_secundaria{
+        width: 48.02768%;
+    }
+
+    .footer_info p{
+        margin-top: 10px;
+        margin-top: 1rem;
+    }
+
+    /* #### PÁGINA DO CURSO DE LOGÍSTICA #### */
+
+    .nav-tabs > li > a:focus, .nav-tabs > li > a {
+        padding: 0 46px 0 46px;
+        padding: 0 4.6rem 0 4.6rem;
+    }
+
+}
