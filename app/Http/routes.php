@@ -49,7 +49,7 @@ Route::controller('/home', 'HomeController');
 Route::controller('/curso', 'CursoController');
 Route::controller('/noticia', 'NoticiaController');
 Route::controller('/docente', 'DocenteController');
-Route::controller('/monitores', 'MonitoriaController');
+Route::controller('/empregos', 'EmpregoController');
 
 /*
 Route::get('contato', function(){

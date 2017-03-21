@@ -1,118 +1,99 @@
 @extends('layout.default')
 @section('content')
-	<!-- Modal -->
-	 <?php  $f = $item  =null;  $j=0; error_reporting(0); ?>
-     @for ($i=0; $i < count($noticias); $i++)
- <?php
+<div id="homepage-banner" class="hidden-xs">
 
-                                       if($i == 0){
-
-                                       $item = $noticias[$i];
-                                       }elseif($i > 0 && $i <=2 ){
-
-                                        $noticiaSub[$f] = $noticias[$i];
-                                       $f++;
-                                       }elseif($i > 2 && $i <= 5){
-
-                                        $noticiaModal[$j] = $noticias[$i];
-                                      $j++;
-                                       }
-                                       ?>
-@endfor
-
-    <section class="container" role="main">
-        <div class="noticias">
-            <header class="row">
-                <h1 class="col-md-12 text-center">NOTÍCIAS</h1>
-            </header>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 noticias_principal" style="background-image: url(../painel/fotos/noticias/{!! $item->foto !!});">
-                    	<a href="{!! URL::to('/noticia/categoria/'); !!}/{!! $item->categoria->linkCategoria !!}/{!! $item->categoria->codigo !!}"><button class="btn btn-default" type="submit">{!! $item->categoria->descricao !!}</button></a>
-                    <div class="noticias_data hidden-xs hidden-sm hidden-md hidden-lg">
-                        <span class="dia">21</span>
-                        <span class="mes_ano"><p>NOV<br/>2015</p></span>
-                    </div>
-                    <div class="noticias_link noticia-principal">
-                       <a href="{!! URL::to('/noticia/e/'); !!}/{!!  $item->linkNoticia; !!}/{!!  $item->id_noticia; !!}"><h1>{!! $item->titulo !!}</h1></a>
-                        <a href="{!! URL::to('/noticia/e/'); !!}/{!!  $item->linkNoticia; !!}/{!!  $item->id_noticia; !!}"><p>{!! $item->previa !!}...</p></a>
-
-            		</div>
-                </div>
-                <div class="modal fade" id="MaisNoticias" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h1 class="modal-title text-center" id="myModalLabel">NOTÍCIAS</h1>
+<div id="slider-wrapper" class="owl-carousel owl-theme owl-loaded"><!-- /.slider-item --><!-- /.slider-item --><!-- /.slider-item --><div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-4047px, 0px, 0px); transition: 0s; width: 9443px;"><div class="owl-item cloned imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg" alt="" title="sl3" style="display: none;"></div></div><div class="owl-item cloned imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl2.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl2.jpg" alt="" title="sl2" style="display: none;"></div></div><div class="owl-item imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/09/dummy-slide-1.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/09/dummy-slide-1.jpg" alt="" title="dummy-slide-1" style="display: none;"></div></div><div class="owl-item imgLiquid_bgSize imgLiquid_ready active" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg" alt="" title="sl3" style="display: none;"></div></div><div class="owl-item imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl2.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl2.jpg" alt="" title="sl2" style="display: none;"></div></div><div class="owl-item cloned imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/09/dummy-slide-1.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/09/dummy-slide-1.jpg" alt="" title="dummy-slide-1" style="display: none;"></div></div><div class="owl-item cloned imgLiquid_bgSize imgLiquid_ready" style="width: 1349px; margin-right: 0px; background-image: url(&quot;http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;"><div class="slider-item"><img class="homepage-slider-image" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/11/sl3.jpg" alt="" title="sl3" style="display: none;"></div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style="display: none;"></div></div></div><!-- #slider-wrapper -->
+	<div class="banner-wrapper hidden-sm">
+	<div class="container">
+		<div class="banner-caption">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="banner-left">
+						<h1>Um site. Vários empregos.</h1>
+						<p>Com o Mjobs, você consegue procurar emprego em um local só, ao invés de acessar diversos sites para buscar uma vaga de emprego.</p>
+						<a href="{!! URL::to('/empregos'); !!}" class="btn btn-default btn-find-job">Econtre um emprego</a>
+					</div>
 				</div>
-				<div class="modal-body">
-
-                     @foreach ($noticiaModal as $item)
-
-
-
-                      <div class="noticias_modal">
-	                <a href="{!! URL::to('/noticia/categoria/'); !!}/{!! $item->categoria->linkCategoria !!}/{!! $item->categoria->codigo !!}"><button class="btn btn-default" type="submit">{!! $item->categoria->descricao !!}</button></a>
-	                    <div class="noticias_link">
-	                     <a href="{!! URL::to('/noticia/e/'); !!}/{!!  $item->linkNoticia; !!}/{!!  $item->id_noticia; !!}"><h1>{!! $item->titulo !!}</h1></a>
-	                       <a href="{!! URL::to('/noticia/e/'); !!}/{!!  $item->linkNoticia; !!}/{!!  $item->id_noticia; !!}"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu dictum nisl. Sed gravida est euismod dui faucibus, eu aliquam tellus tincidunt. Nullam id egestas massa, a ultrices risus...</p></a>
-	                    </div>
-                	</div>
-
-                     @endforeach
+				<div class="col-md-6">
+					<div class="banner-right">
+						<h1>Conheça nosso projeto</h1>
+						<p>Nosso projeto tem como principal objetivo ajudar as pessoas a encontrar um emprego de maneira mais rápida e concentrada.</p>
+						<a href="{!! URL::to('/sobre'); !!}" class="btn btn-default btn-post-job">Conheça</a>
+					</div>
 				</div>
+			</div><!-- /.row -->
+		</div><!-- /.banner-caption -->
+	</div><!-- /.container -->
+</div><!-- /.banner-wrapper -->
+</div>
 
+<!- teeeeeeeeeeeeeeeeeeeeesteeee lala        dd ------ -->
 
+<div id="job-stats">
+	<div class="container">
+		<h1 class="job-stats-title">Nossos números</h1>
+		<p class="job-stats-desc">
+					</p>
+		<div class="job-stats-wrapper row">
+			<div class="col-lg-2 col-lg-offset-2 col-sm-3">
+				<div class="count-box">
+				350			</div><!-- /.count-box -->
+				<div class="count-text">
+				Vagas encontradas				</div><!-- /.count-text -->
+			</div> <!-- /.col-lg-2 col-lg-offset-2 col-md-3" -->
+			<div class="col-lg-2 col-sm-3">
+				<div class="count-box">
+				5				</div><!-- /.count-box -->
+				<div class="count-text">
+				Grandes sites de vagas				</div><!-- /.count-text -->
+			</div><!-- /.col-lg-2 col-sm-3 -->
+			<div class="col-lg-2 col-sm-3">
+				<div class="count-box">
+				100			</div><!-- /.count-box -->
+				<div class="count-text">
+				Empregos conretizados				</div><!-- /.count-text -->
+			</div><!-- /.col-lg-2 col-sm-3 -->
+			<div class="col-lg-2 col-sm-3">
+				<div class="count-box">
+				500			</div><!-- /.count-box -->
+				<div class="count-text">
+				Apoiadores do projeto				</div><!-- /.count-text -->
+			</div><!-- /.col-lg-2 col-sm-3 -->
+		</div><!-- /.job-stats-wrapper -->
+	</div><!-- /.container -->
+</div>
 
-				<div class="modal-footer">
-					<ul class="pager">
-						<li class="previous"><a href="{!! URL::to('/noticia/noticias/'); !!}"><span aria-hidden="true">&larr;</span> MAIS ANTIGAS</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-                 @foreach ($noticiaSub as $item)
+<div id="job-step">
+	<div class="container">
+		<h1 class="job-step-title">
+		Entenda o processo		</h1>
+		<p class="job-step-desc">
+					</p>
+		<div class="job-step-wrapper row">
+			<div class="col-sm-3">
+				<div class="step-number">Primeiro passo</div>
+				<div class="step-image"><img src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/10/step-icon-1.png" alt="First Step" title="Register with Us"></div><!-- /.step-image -->
+				<h3 class="step-title">Buscamos as vagas de vários sites</h3>
+			</div><!-- /.col-sm-3 -->
 
+			<div class="col-sm-3">
+				<div class="step-number">Segundo passo</div>
+				<div class="step-image"><img src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/10/step-icon-2.png" alt="Second Step" title="Create Your Profile"></div><!-- /.step-image -->
+				<h3 class="step-title">Você encontra uma vaga</h3>
+			</div><!-- /.col-sm-3 -->
 
-                       <div class="col-md-6 col-sm-6 noticias_secundaria noticias_secundariaUm">
-                           <a href="{!! URL::to('/noticia/categoria/'); !!}/{!! $item->categoria->linkCategoria !!}/{!! $item->categoria->codigo !!}"><button class="btn btn-default" type="submit">{!! $item->categoria->descricao !!}</button></a>
-                            <div class="noticias_data hidden-xs hidden-sm hidden-md hidden-lg">
-                                <span class="dia">21</span>
-                                <span class="mes_ano"><p>NOV<br/>2015</p></span>
-                            </div>
-                            <div class="noticias_link">
-                                <a href="{!! URL::to('/noticia/e/'); !!}/{!!  $item->linkNoticia; !!}/{!!  $item->id_noticia; !!}"><h1>{!! $item->titulo !!}</h1></a>
+			<div class="col-sm-3">
+				<div class="step-number">Terceiro passo</div>
+				<div class="step-image"><img src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/10/step-icon-3.png" alt="First Step" title="Upload your resume"></div><!-- /.step-image -->
+				<h3 class="step-title">Se cadidata a vaga no site que á publicou</h3>
+			</div><!-- /.col-sm-3 -->
 
-                            </div>
-                        </div>
-                @endforeach
-
-
-                <div class="text-right">
-                    <button type="button" class="btn btn-default noticias_btn_saibamais notop" data-toggle="modal" data-target="#MaisNoticias">MAIS NOTÍCIAS</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="sobre">
-            <header class="row">
-                <h1 class="col-md-12 text-center">SOBRE</h1>
-            </header>
-            <div class="row sobre_conteudo">
-                <div class="col-md-6 sobre_contTexto hidden-lg">
-                    <p>.</p>
-                </div>
-                <div class="col-md-6 sobre_contTexto visible-lg">
-                   <p>A <b>Faculdade de Tecnologia de Bebedouro</b> é uma das 65 Unidades que oferecem Cursos Superiores de Graduação Tecnológica do Centro Estadual de Educação Tecnológica Paula Souza. Criada em 2014, oferece atualmente o Curso Superior de Tecnologia em Logística de forma gratuita. Neste semestre ingressaram 40 alunos da terceira turma. Situada na cidade de Bebedouro, no interior do Estado de São Paulo, que é considerada a Capital Nacional da Laranja, atualmente busca ser também a Capital Nacional da Logística pela instalação de diversas empresas deste setor na cidade. Este foi um dos motivos determinantes para que a FATEC trouxesse para Bebedouro o Curso Superior de Tecnologia em Logística.</p>
-                    <p>A partir de 22 de abril de 2015 através da Lei 15.816/15, a Faculdade de Tecnologia de Bebedouro passa a denominar-se “Jorge Caram Sabbag”, proposta sob o projeto de Lei 569/2014 de autoria do Deputado Estadual Roberto Engler. A homenagem ao comerciante falecido em 2010, uma das figuras mais tradicionais da sociedade bebedourense dos últimos anos, foi motivada especialmente pelo seu trabalho como fundador e grande incentivador da Patrulha Ecológica.</p>
-                </div>
-                <div class="col-md-6 sobre_contImg">
-                    <img src="{!! asset("assets/img/fatec_frente.jpg") !!}" class="img-responsive" alt="Foto do Campus da Fatec Bebedouro">
-                </div>
-
-            </div>
-        </div>
-    </section>
+			<div class="col-sm-3">
+				<div class="step-number">Parabéns</div>
+				<div class="step-image step-last"><img src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/10/step-icon-4.png" alt="First Step" title="Now take a rest"></div><!-- /.step-image -->
+				<h3 class="step-title">Pronto! É só torcer e esperar o contato da empresa.</h3>
+			</div><!-- /.col-sm-3 -->
+		</div><!-- /.job-step-wrapper -->
+	</div><!-- /.container -->
+</div>
 @stop
