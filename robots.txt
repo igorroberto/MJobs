@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /sobre
+
+Sitemap: http://deujogo.com/sitemap.xml
+Sitemap: http://deujogo.com/sitemapmob.xml

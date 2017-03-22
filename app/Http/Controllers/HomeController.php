@@ -11,17 +11,19 @@ class HomeController extends Controller
     //
     public function getIndex(){
        // $noticias =  NoticiaController::getNoticiasSlide("Home");
-      
+
         //  dd($noticia);
       //  dd($carros);["name" => "josé"]
         return  view("pages.home", compact("noticias"));
-    
+
     }
-    
-   
-    
+
+  
+
+
+
     public function missingMethod($params = array()){
-        
+
         return "Erro 404 nao achei a pGEaa";
     }
 }

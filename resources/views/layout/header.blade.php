@@ -21,7 +21,7 @@
 
 		</ul><!-- /.social-media -->
 					<div class="jobboard-login-register clearfix">
-					<a class="btn btn-header-register" href="#">REGISTER</a>
+					<a class="btn btn-header-register" href="{!! URL::to('/desemprego'); !!}">Desemprego no Brasil</a>
 			<a class="btn btn-header-login" href="#">LOG IN</a>
 				</div>
 			</div><!-- /.container -->

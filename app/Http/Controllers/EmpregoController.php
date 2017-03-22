@@ -32,7 +32,7 @@ $vagas = [];
 
 // Find top ten videos
 $i = 1;
-foreach ($html->find('section#vagasAbertasHoje div#vagasDeHoje article.vaga') as $vaga) {
+foreach ($html->find('section[name="vagasAbertasHaUmaSemana"] div#vagasDaSemana article.vaga') as $vaga) {
        if ($i > 10) {
                break;
        }

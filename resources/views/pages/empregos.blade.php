@@ -9,14 +9,14 @@
 				<div id="search-text-input" class="row">
 					<div class="col-md-7">
 						<div class="form-group has-feedback">
-							<label class="text-label" for="keyword">Search</label>
-							<input class="form-control" type="text" name="keyword" id="keyword" placeholder="Keywords (IT Engineer, Shop Manager, Hr Manager...)" required="required">
+							<label class="text-label" for="keyword">Pesquisa</label>
+							<input class="form-control" type="text" name="keyword" id="keyword" placeholder="Palvavras-chave (Analista de Sistemas, Analisata de TI, Gerente de TI...)" required="required">
 							<span class="fa fa-search form-control-feedback"></span>
 						</div>
 					</div>
 					<div class="col-md-5">
 						<div class="form-group has-feedback">
-							<label class="text-label" for="location">Location</label>
+							<label class="text-label" for="location">Local</label>
 															<select name="location" id="location" tabindex="-1" style="display: none;" class="selectized"><option value="" selected="selected"></option></select><div class="selectize-control single"><div class="selectize-input items not-full has-options"><input type="text" autocomplete="off" tabindex="" placeholder="Any" style="width: 29px;"></div><div class="selectize-dropdown single" style="display: none;"><div class="selectize-dropdown-content"></div></div></div>
 													</div>
 					</div>
@@ -121,9 +121,9 @@
 					<div class="col-md-4 search-btn-group">
 
 
-						<button class="btn btn-default btn-job-search " type="submit" name="submit" value="true">Search</button>
+						<button class="btn btn-default btn-job-search " type="submit" name="submit" value="true">Pesquisa</button>
 
-													<button class="btn btn-default advance-search-toggle" name="advance-search">Advanced Search</button>
+													<button class="btn btn-default advance-search-toggle" name="advance-search">Pesquisa avançada</button>
 											</div><!-- /.col-md-9 -->
 
 
@@ -151,13 +151,13 @@
 												</div>
 						<div id="all_jobs" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="false">
 							@foreach($vagas as $item)
-										<a class="job-listing-permalink" href="http://vagas.com.br{!! $item['url'] !!}" target="_blank">
+										<a class="job-listing-permalink" rel="NoFollow" href="http://vagas.com.br{!! $item['url'] !!}" target="_blank">
 											<div class="job-listing-row clearfix">
 												<div class="job-company-logo">
 												<img width="80" height="80" src="{!! asset("assets/img/vagas.png") !!}" class="attachment-jobboard-company-logo-thumbnail wp-post-image" alt="Photodune">
 												</div><!-- /.job-company-logo -->
 												<div class="job-listing-name">
-													<h4><a href="http://vagas.com.br{!! $item['url'] !!}" target="_blank" > {!! $item["titulo"] !!}</a></h4>
+													<h4><a href="http://vagas.com.br{!! $item['url'] !!}"  rel="NoFollow" target="_blank" > {!! $item["titulo"] !!}</a></h4>
 													<p class="job-listing-summary">{!! $item["desc"] !!}...</p>
 												</div><!-- /.job-listing-name -->
 												<div class="job-listing-region">

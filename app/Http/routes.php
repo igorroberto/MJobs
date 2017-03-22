@@ -22,9 +22,9 @@ Route::get('/creditos', function()
 {
 	return View::make('pages.creditos'); // laravel 5 return View('pages.home');
 });
-Route::get('/diretoria-academica', function()
+Route::get('/desemprego', function()
 {
-	return View::make('pages.diretoria-academica'); // laravel 5 return View('pages.home');
+	return View::make('pages.outro-site-content'); // laravel 5 return View('pages.home');
 });
 Route::get('/diretoria-servicos', function()
 {
@@ -44,7 +44,7 @@ Route::get('/calendario', function()
 });
 
 Route::post('/enviarEmail', 'EmailController@enviar');
-
+Route::get('/', 'HomeController@getIndex'); 
 Route::controller('/home', 'HomeController');
 Route::controller('/curso', 'CursoController');
 Route::controller('/noticia', 'NoticiaController');
