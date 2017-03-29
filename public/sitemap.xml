@@ -7,19 +7,19 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://deujogo.com/public/home</loc>
+  <loc>http://deujogo.com/home</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://deujogo.com/public/sobre</loc>
+  <loc>http://deujogo.com/sobre</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://deujogo.com/public/empregos</loc>
+  <loc>http://deujogo.com/empregos</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://deujogo.com/public/fale-conosco</loc>
+  <loc>http://deujogo.com/fale-conosco</loc>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
