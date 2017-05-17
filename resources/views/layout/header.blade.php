@@ -30,7 +30,7 @@
 					<div class="col-md-3">
 											<div class="logo-wrapper ">
 							<a href="#" class="header-logo" title="MJobs">
-						<img src="{!! asset("assets/img/logo.png") !!}" alt="Mjobs"></a>
+						<img src="{!! asset("assets/img/logo.png") !!}" alt="Logo Mjobs"></a>
 						</div><!-- /.logo-wrapper -->
 					</div><!-- /.col-md-3 -->
 					<div class="col-md-9">

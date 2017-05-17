@@ -140,15 +140,13 @@
 
 			<div class="col-lg-8">
 				<div class="jobs-listing-title">
-					<h3><i class="fa fa-briefcase"></i>Recent Jobs</h3>
+					<h3><i class="fa fa-briefcase"></i>Últimos trabalhos</h3>
 				</div>
 				<div class="jobs-listing-wrapper">
 					<div id="job-listing-tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
 						<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
-						<li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="all_jobs" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#all_jobs" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">All</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-21" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"><a href="#tab-21" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Contract</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-25" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"><a href="#tab-25" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Freelance</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-26" aria-labelledby="ui-id-4" aria-selected="false" aria-expanded="false"><a href="#tab-26" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">Full Time</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-45" aria-labelledby="ui-id-5" aria-selected="false" aria-expanded="false"><a href="#tab-45" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-5">Part Time</a></li>						</ul>
-						<div id="loadajax" class="loading-ajax">
-													<i class="fa fa-refresh fa-spin fa-2x"></i>
-												</div>
+						<li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="all_jobs" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#all_jobs" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Todos</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-21" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"><a href="#tab-21" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Estágio</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-25" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"><a href="#tab-25" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Temporários</a></li><li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-26" aria-labelledby="ui-id-4" aria-selected="false" aria-expanded="false"><a href="#tab-26" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">Pessoas com deficiência</a></li>				</ul>
+
 						<div id="all_jobs" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="false">
 							@foreach($vagas as $item)
 										<a class="job-listing-permalink" rel="NoFollow" href="http://vagas.com.br{!! $item['url'] !!}" target="_blank">
@@ -171,9 +169,9 @@
 						@endforeach
 
 						<div class="dashboard-pagination"><span class="page-numbers current">1</span>
-<a class="page-numbers" href="http://demo.puriwp.com/jobboard/page/2/">2</a>
-<a class="page-numbers" href="http://demo.puriwp.com/jobboard/page/3/">3</a>
-<a class="next page-numbers" href="http://demo.puriwp.com/jobboard/page/2/">Next</a></div><!-- /.dashboard-pagination -->						</div><!-- /#all_jobs -->
+<a class="page-numbers" href="#">2</a>
+<a class="page-numbers" href="#">3</a>
+<a class="next page-numbers" href="#">Próximo</a></div><!-- /.dashboard-pagination -->						</div><!-- /#all_jobs -->
 												<script>
 													jQuery(document).ready(function($){
 														"use strict";
@@ -477,18 +475,18 @@
 
 <div class="col-lg-4">
 	<aside id="sidebar-home" class="sidebar">
-	<div id="jobboard_featured_job-2" class="widget widget_jobboard_featured_job"><h3 class="home-widget-title">Top Job Opening</h3>		<div id="featured-job" class="featured-job-widget owl-carousel owl-theme owl-loaded">
+	<div id="jobboard_featured_job-2" class="widget widget_jobboard_featured_job"><h3 class="home-widget-title">Vagas patrocinadas</h3>		<div id="featured-job" class="featured-job-widget owl-carousel owl-theme owl-loaded">
 					<!-- /.featured-job-item -->
 					<!-- /.featured-job-item -->
 					<!-- /.featured-job-item -->
 					<!-- /.featured-job-item -->
 				<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1600px, 0px, 0px); transition: 0.25s; width: 3200px;"><div class="owl-item cloned" style="width: auto; margin-right: 0px;"><div class="featured-job-item">
 				<div class="featured-job-thumbnail">
-				<a href="http://demo.puriwp.com/jobboard/company/codecanyon/"><img width="232" height="63" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/07/codecanyon.png" class="attachment-jobboard-featured-job-thumbnail wp-post-image" alt="Code Canyon"></a>				</div><!-- /.featured-job-thumbnail -->
+							</div><!-- /.featured-job-thumbnail -->
 				<div class="featured-job-detail">
-					<div class="featured-job-title">Technical Business Analyst/ Systems Analyst</div>
-					<div class="featured-job-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing</div>
-					<a href="http://demo.puriwp.com/jobboard/job/technical-business-analyst-systems-analyst/" class="btn btn-view-featured-job">View Job</a>
+					<div class="featured-job-title">Analista de ssitemas Pleno</div>
+					<div class="featured-job-desc">Trabalhe como analista de sistemas na Google</div>
+					<a href="https://careers.google.com/" class="btn btn-view-featured-job" target="_blank">Ver vaga</a>
 				</div><!-- /.featured-job-detail -->
 				<div class="featured-job-type clearfix">
 						<div class="featured-job-location">
@@ -496,7 +494,7 @@
 							Melbourne						</div><!-- featured-job-location -->
 						<div class="featured-job-contract">
 							<i class="fa fa-fw fa-user"></i>
-							Freelance						</div><!-- /.featured-job-contract -->
+							Pleno						</div><!-- /.featured-job-contract -->
 					</div><!-- /.featured-job-type -->
 			</div></div><div class="owl-item cloned" style="width: auto; margin-right: 0px;"><div class="featured-job-item">
 				<div class="featured-job-thumbnail">
@@ -548,11 +546,11 @@
 					</div><!-- /.featured-job-type -->
 			</div></div><div class="owl-item active" style="width: auto; margin-right: 0px;"><div class="featured-job-item">
 				<div class="featured-job-thumbnail">
-				<a href="http://demo.puriwp.com/jobboard/company/codecanyon/"><img width="232" height="63" src="http://demo.puriwp.com/jobboard/wp-content/uploads/2014/07/codecanyon.png" class="attachment-jobboard-featured-job-thumbnail wp-post-image" alt="Code Canyon"></a>				</div><!-- /.featured-job-thumbnail -->
+								</div><!-- /.featured-job-thumbnail -->
 				<div class="featured-job-detail">
-					<div class="featured-job-title">Technical Business Analyst/ Systems Analyst</div>
-					<div class="featured-job-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing</div>
-					<a href="http://demo.puriwp.com/jobboard/job/technical-business-analyst-systems-analyst/" class="btn btn-view-featured-job">View Job</a>
+					<div class="featured-job-title">Analista de sistemas</div>
+					<div class="featured-job-desc">Trabalhe como analista de sistemas na Google</div>
+					<a href="https://careers.google.com/" class="btn btn-view-featured-job" target="_blank">Ver vaga</a>
 				</div><!-- /.featured-job-detail -->
 				<div class="featured-job-type clearfix">
 						<div class="featured-job-location">
@@ -560,7 +558,7 @@
 							Melbourne						</div><!-- featured-job-location -->
 						<div class="featured-job-contract">
 							<i class="fa fa-fw fa-user"></i>
-							Freelance						</div><!-- /.featured-job-contract -->
+							Pleno						</div><!-- /.featured-job-contract -->
 					</div><!-- /.featured-job-type -->
 			</div></div><div class="owl-item" style="width: auto; margin-right: 0px;"><div class="featured-job-item">
 				<div class="featured-job-thumbnail">
@@ -612,9 +610,9 @@
 					</div><!-- /.featured-job-type -->
 			</div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="">&nbsp;</div><div class="owl-next" style="">&nbsp;</div></div><div class="owl-dots" style="display: none;"></div></div></div>
 	</div><div id="jobboard_custom_button-2" class="widget widget_jobboard_custom_button">		<div class="upload-post-job-wrapper resume">
-			<h4 class="custom-button-widget-title">Upload your resume</h4>
-			<p class="custom-button-widget-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit debitis quas reiciendis consectetur totam fuga amet.</p>
-			<a href="http://demo.puriwp.com/jobboard/post-a-resume/" class="btn btn-custom-button-widget">Upload Resume</a>
+			<h4 class="custom-button-widget-title">Guia taquaritinga</h4>
+			<p class="custom-button-widget-text">Conheça o maior portal de comércio de taquaritinga e região.</p>
+			<a href="http://guiataquaritinga.com.br" class="btn btn-custom-button-widget" target="_blank">Conhecer</a>
 		</div><!-- /.upload-post-job-wrapper -->
 
 	</div>	</aside><!-- /#sidebar-default -->

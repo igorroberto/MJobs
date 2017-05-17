@@ -15,7 +15,7 @@ A expectativa do governo e da maior parte do mercado é de que o país saia da r
 A taxa de desemprego passou de 9,5% no trimestre encerrado em janeiro para 11,8%. Veja gráfico ao lado:</h4>
                 </div>
                 <div class="col-md-6 sobre_contImg">
-                    <img src="http://s2.glbimg.com/3Zz8aDomtoKpykh7HCTBSykgijc=/0x0:620x629/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2016/g/g/S4ovEGTXCEPqUzbi2SYQ/ff776e02.png" class="img-responsive" alt="Gráfico desemprego">
+                    <img src="{!! asset("assets/img/taxa-desemprego.png") !!}" class="img-responsive" alt="Gráfico desemprego">
                 </div>
             </div>
         </div>

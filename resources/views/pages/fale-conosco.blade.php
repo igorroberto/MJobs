@@ -34,6 +34,9 @@
 
 								{!! Form::submit('ENVIAR',
 	array('class'=>'btn btn-default sobre_btn_enviar')) !!}
+	<h3>Créditos</h3>
+	<p><a href="http://bulldoor.esy.es/" target="_blank" >Bulldoor.esy.es/</a></p>
+	<p><a href="http://guiataquaritinga.com.br" target="_blank">GuiaTaquaritinga.com.br/</a></p>
 						</div>
 							</div>
 							<div class="col-md-6 sobre_contImg">

@@ -8,13 +8,13 @@
 		</div>			</div><!-- /.col-md-3 -->
 						<div class="col-md-2 widget-container">
 			<div id="nav_menu-2" class="widget widget_nav_menu"><h3 class="footer-widget-title">Alguns dos sites usados</h3><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu">
-<li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="#">Site 1</a></li>
-<li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-973"><a href="#">Site 2</a></li>
-<li id="menu-item-970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970"><a href="#">Site 3</a></li>
-<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="#">Site 4</a></li>
+<li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="http://vagas.com.br" target="_blank">Vagas.com</a></li>
+<li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-973"><a href="http://www.catho.com.br/" target="_blank">Catho.com.br</a></li>
+<li id="menu-item-970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970"><a href="https://www.empregos.com.br" target="_blank" >Empregos.com.br</a></li>
+<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="https://www.infojobs.com.br/" target="_blank"  >InfoJobs.com.br</a></li>
 </ul></div></div>			</div><!-- /.col-md-2 -->
 						<div class="col-md-4 widget-container">
-			<div id="wolf-twitter-widget-2" class="widget wolf-twitter-widget"><h3 class="footer-widget-title">Texto </h3><ul class="wolf-tweet-list"><li> Desenvolvido para a matéria de Encontrabilidade do 6 semestre de Sistemas para Internet da Fatec Taquaritinga   <a href="#" target="_blank">Fatec TQ</a>.</li></ul></div>			</div><!-- /.col-md-4 -->
+			<div id="wolf-twitter-widget-2" class="widget wolf-twitter-widget"><h3 class="footer-widget-title">Projeto Acadêmico </h3><ul class="wolf-tweet-list"><li> Desenvolvido para a matéria de Encontrabilidade do 6 semestre de Sistemas para Internet da Fatec Taquaritinga   <a href="#" target="_blank">Fatec TQ</a>.</li></ul></div>			</div><!-- /.col-md-4 -->
 						<div class="col-md-3 widget-container">
 			<div id="text-4" class="widget widget_text"><h3 class="footer-widget-title">Receba atualizações</h3>			<div class="textwidget"><p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
 <form role="form">
