@@ -37,6 +37,7 @@
 	<h3>Créditos</h3>
 	<p><a href="http://bulldoor.esy.es/" target="_blank" >Bulldoor.esy.es/</a></p>
 	<p><a href="http://guiataquaritinga.com.br" target="_blank">GuiaTaquaritinga.com.br/</a></p>
+	<p><a href="http://pokermap.esy.es" target="_blank">Pokermap.esy.es</a></p>
 						</div>
 							</div>
 							<div class="col-md-6 sobre_contImg">
